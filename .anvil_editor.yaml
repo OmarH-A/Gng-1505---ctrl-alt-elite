@@ -1,9 +1,11 @@
 unique_ids:
   assets:
+    Capture d’écran 2025-10-31 151436.png: '1762883817924152220179458.57526'
     standard-page.html: R2RV37WEO2OAMCVNBJ5L6H6Q2BOPRRMS
     theme.css: IRZDDWZY236RJQLPU2PUECP25C76ETE4
   forms:
     Form1: VIPJBS3FGDHIK6JWEC2JQOVP4VQTYZOE
   modules: {}
   scripts: {}
-  server_modules: {}
+  server_modules:
+    ServerModule1: '1762883493842800344720959.4333'

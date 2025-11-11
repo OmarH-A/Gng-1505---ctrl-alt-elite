@@ -1,12 +1,31 @@
 allow_embedding: false
+db_schema:
+  table_1:
+    client: none
+    columns:
+    - admin_ui: {order: 0, width: 200}
+      name: Temperature
+      type: string
+    - admin_ui: {order: 1, width: 200}
+      name: Capteur 1
+      type: number
+    - admin_ui: {order: 2, width: 200}
+      name: Capteur 2
+      type: number
+    server: full
+    title: Table 1
 dependencies: []
-name: M3 App 1
-package_name: M3_App_1
+metadata: {description: Interface utilisateur du projet GNG1505A, logo_img: 'asset:Capture d’écran 2025-10-31 151436.png', title: CTRL-ALT ELITE}
+name: GNG 1505 - CTRL-ALT ELITE
+package_name: GNG_1505___CTRL_ALT_ELITE
 renamed: true
 runtime_options:
   client_version: '3'
   server_spec: {base: python310-minimal}
   server_version: python3-sandbox
   version: 2
-services: []
+services:
+- client_config: {}
+  server_config: {}
+  source: /runtime/services/tables.yml
 startup_form: Form1
